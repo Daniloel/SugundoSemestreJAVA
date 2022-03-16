@@ -1,2 +1,2 @@
-# SugundoSemestreJAVA
+# SegundoSemestreJAVA
 Linguagem de programação
