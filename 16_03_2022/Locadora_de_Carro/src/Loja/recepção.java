@@ -1,29 +1,29 @@
 package Loja;
 
-public class recepÁ„o {
+public class recep√ß√£o {
 	
-	// Atribuir qualidade a classe que no caso ser· a recepÁ„o
+	// Atribuir qualidade a classe que no caso ser√° a recep√ß√£o
 	private int recepcionista;
 	private boolean agua;
-	private boolean cafÈ;
-	private boolean sof·;
+	private boolean caf√©;
+	private boolean sof√°;
 	private int balcao;
 	private int senha = 300;
 	
 	
-	//MÈtodo construtor executo apenas o que foi listado
+	//M√©todo construtor executo apenas o que foi listado
 	
-	public recepÁ„o (int recepcionista,	boolean agua,boolean cafÈ,boolean sof·,	int balcao,int senha) 
+	public recep√ß√£o (int recepcionista,	boolean agua,boolean caf√©,boolean sof√°,	int balcao,int senha) 
 	{
 		this.recepcionista = recepcionista;
 		this.agua=agua;
-		this.cafÈ=cafÈ;
-		this.sof·=sof·;
+		this.caf√©=caf√©;
+		this.sof√°=sof√°;
 		this.balcao=balcao;
 		this.senha=senha;
 	}
 	
-	//mÈtodos de acesso aos atributos
+	//m√©todos de acesso aos atributos
 			public int get_senha()
 			{
 				return senha;
@@ -34,22 +34,23 @@ public class recepÁ„o {
 			}
 	
 	
-	// Criar mÈtodos de acesso da classe
+	// Criar m√©todos de acesso da classe
 	public void chamar() 
 	{
 		System.out.println("Chamando para o atendimento");
 		
 	}
 	
-	public boolean tomarcafÈ () 
+	public boolean tomarcaf√© () 
 	{
-		System.out.println("Vai beber cafÈ que È de graÁa");
+		System.out.println("Vai beber caf√© que √© de gra√ßa");
 		return true;
 		
 	} 
 	
 	public void contar_recepcionista (int recepcionista) {
-		System.out.println("Tem "+recepcionista+ " a sua disposiÁ„o");
+		System.out.println("Tem "+recepcionista+ " a sua disposi√ß√£o");
+		System.out.println("Tem "+recepcionista+ " a sua inteira diposi√ß√£o");
 		
 	}
 	
@@ -58,14 +59,14 @@ public class recepÁ„o {
 	{
 		// TODO Auto-generated method stub
 
-		recepÁ„o atendente = new recepÁ„o (3,true,true,true,3,3);
+		recep√ß√£o atendente = new recep√ß√£o (3,true,true,true,3,3);
 		
 		atendente.recepcionista=1;
 		atendente.chamar();
 		atendente.contar_recepcionista(1);
 		
-		recepÁ„o cafezinho= new recepÁ„o(3,true,true,true,3,3);
-		cafezinho.tomarcafÈ();
+		recep√ß√£o cafezinho= new recep√ß√£o(3,true,true,true,3,3);
+		cafezinho.tomarcaf√©();
 		
 	}
 
